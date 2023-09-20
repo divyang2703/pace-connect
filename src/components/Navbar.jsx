@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
@@ -6,10 +6,35 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
+    const navRef = useRef(null);
 
     const handleNav = () => {
         setNav(!nav)
     }
+
+    useEffect(() => {
+        function handleClickOutside(event) {
+          if (navRef.current && !navRef.current.contains(event.target)) {
+            setNav(false);
+          }
+        }
+    
+        if (nav) {
+          // Attach the event listener when the menu is open.
+          document.addEventListener('mousedown', handleClickOutside);
+        } else {
+          // Remove the event listener when the menu is closed.
+          document.removeEventListener('mousedown', handleClickOutside);
+        }
+    
+        // Clean up the event listener when the component unmounts.
+        return () => {
+          document.removeEventListener('mousedown', handleClickOutside);
+        };
+      }, [nav]);
+
+
+
 
     return (
         <div className='flex justify-between items-center h-24 max-w-full mx-auto px-4 text-black' id='navbar'>
@@ -42,7 +67,7 @@ const Navbar = () => {
                 {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
 
             </div>
-            <div className={nav ? 'fixed left-0 top-0 w-[60%] z-50 text-[#313334] border-r h-full border-r-gray-900 bg-[#FAF9F6] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+            <div  ref={navRef} className={nav ? 'fixed left-0 top-0 w-[60%] z-50 text-[#313334] border-r h-full border-r-gray-900 bg-[#FAF9F6] ease-in-out duration-500' : 'fixed left-[-100%]'}>
                 <h2 className='w-full text-3xl font-bold text-[#0098b0] m-4'>Pace Connect</h2>
 
                 <ul className='p-2'>

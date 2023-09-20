@@ -43,9 +43,6 @@ function App() {
         className='flex justify-center place-items-center'
       /> :  <><Navbar /><Hero /><Services /><Client /><Pricing /><Team /><About /><Contact /><FAQ /><Footer /></>
 }
-      
-     
-      
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/Pace Connect logo.jpg'
 
+
 const Contact = () => {
     return (
         <div className='w-full py-16 px-4' id='contact'>
@@ -15,7 +16,7 @@ const Contact = () => {
                             <li className='font-medium text-lg'>Aman: +917757856110</li>
                             <li className='font-medium text-lg'>Sahil: +917709997861</li>
                             <li className='font-medium text-lg'>Vishwesh: +918208663834</li>
-                            <li className='font-medium text-lg'>Email: <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDDHxnDrFkhdhkHXngdnPWbrhzMglLPLCgKPhGPGvXJqvqhhrHVWZKkvmjmfspZVsmrJvc' target='_blank' rel='noreferrer' >paceconnect23@gmail.com</a></li>
+                            <li className='font-medium text-lg'>Email: <a href='https://shorturl.at/cwACV' target='_blank' rel=" noreferrer">paceconnect23@gmail.com</a></li>
                             <li className='font-medium text-lg'>Head Office Address: Shop no. 14 ,Mirchandani Daffodils, Sun city , Vasai West, Vasai-Virar, Maharashtra 401202</li>
                         </ul>
                 </div>

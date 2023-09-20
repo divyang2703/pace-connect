@@ -18,7 +18,7 @@ const Footer = () => {
                 <p className='py-2'>Empower Your Pace with Pace Connect: Ignite Your Social Media Success!</p>
                 <p>Unleash Social Media Success. Expert marketing agency. Elevate your brand. Drive growth. Join the social media revolution today!</p>
             <div className='flex justify-between md:w-[75%] my-6 '>
-                <LinkR to='https://shorturl.at/mIW35' target='_blank'>
+                <LinkR to='https://www.facebook.com/PaceconnectOffical' target='_blank'>
                    <FaFacebookSquare size={25} />
                 </LinkR>
                     <LinkR to='https://shorturl.at/mIW35' target='_blank'>
