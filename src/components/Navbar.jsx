@@ -37,7 +37,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='flex justify-between items-center h-24 max-w-full mx-auto px-4 text-black' id='navbar'>
+        <div className='flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white' id='navbar'>
             <Link to='hero' spy={true} smooth={true} duration={1000} className='cursor-pointer'>
              <h2 className='w-full text-3xl font-bold text-[#0098b0]'>Pace Connect</h2>
             </Link>

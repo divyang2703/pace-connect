@@ -12,7 +12,7 @@ import {Link as LinkR} from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <div className='max-w-full mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-black border border-t-black'>
+        <div className='max-w-full mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white border-t-black'>
         <div>
         <h2 className='w-full text-3xl font-bold text-[#0098b0]'>Pace Connect.</h2>
                 <p className='py-2'>Empower Your Pace with Pace Connect: Ignite Your Social Media Success!</p>

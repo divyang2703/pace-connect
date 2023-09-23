@@ -3,8 +3,8 @@ import {Link }from 'react-router-dom'
 import {FcServices} from 'react-icons/fc'
 import Insta from '../assets/Social/instagram.png'
 import FB from '../assets/Social/facebook.png'
-import Twitter from '../assets/Social/twitter.png'
-import Telegram from '../assets/Social/telegram.png'
+import X from '../assets/Social/X.png'
+import Linkedin from '../assets/Social/Linkedin.png'
 import Google from '../assets/Social/google.png'
 import WA from '../assets/Social/whatsapp.png'
 
@@ -12,10 +12,10 @@ const Services = () => {
   return (
     <div>
        <h1 className=' text-4xl flex justify-center items-center' id="service"><FcServices size={40}></FcServices>&nbsp;Services</h1>
-      <div className=' grid grid-cols-1 md:grid-cols-3 gap-4  text-black px-5  py-9'>
+      <div className=' grid grid-cols-1 md:grid-cols-3 gap-4  text-white px-5  py-9'>
                 {/* first card */}
                 <div className='justify-center py-4 px-9 mx-auto w-full border rounded-xl shadow-xl' >
-                    <h6 className='text-3xl font-bold flex justify-center py-2'>Insatgram</h6>
+                    <h6 className='text-3xl font-bold flex justify-center py-2'>Instagram</h6>
                     <img className='mx-auto w-[350px] h-[255px] rounded-lg  py-2 lg:w-[250px]' src={Insta} alt="/" />
                     <p className='p-2 mt-2 text-2xl font-semibold'>"Grow Your Instagram Game with Our Social Media Marketing Agency!"</p>
                     <p className='p-2 mt-2'>In today's digital landscape, Instagram is more than just a platform for sharing photos—it's a powerful marketing tool that can take your brand to new heights. Here's why you should partner with our Social Media Marketing Agency to harness the full potential of Instagram:</p>
@@ -92,17 +92,17 @@ const Services = () => {
                 {/* fifth card */}
 
                 <div className='justify-center py-4 px-9 mx-auto w-full border rounded-xl shadow-xl' >
-                    <h6 className='text-3xl font-bold flex justify-center py-2'>Telegram</h6>
-                    <img className='mx-auto w-[350px] h-[255px] rounded-lg duration-500 py-2 lg:w-[250px]' src={Telegram} alt="/" />
+                    <h6 className='text-3xl font-bold flex justify-center py-2'>LinkedIn</h6>
+                    <img className='mx-auto w-[350px] h-[255px] rounded-lg duration-500 py-2 lg:w-[250px]' src={Linkedin} alt="/" />
                     <p className='p-2 mt-2 text-2xl font-semibold'>"Grow Your Telegram Game with Our Social Media Marketing Agency!"</p>
                     <p className='p-2 mt-2'>Empower your brand on Telegram with our expert marketing agency. Leverage secure and fast messaging to grow your community, share updates, and connect with your audience effectively:</p>
                     <ul className='p-2 mt-2'>
-                        <li className='py-2' >• Driving customer to your website</li>
-                        <li className='py-2' >• Telegram Channel Opening</li>
-                        <li className='py-2'>• Boosting customer engagement</li>
+                        <li className='py-2' >• Hashtags Marketing Tactic</li>
+                        <li className='py-2' >• LinkedIn page Management</li>
+                        <li className='py-2'>• LinkedIn Content Management</li>
                         <li className='py-2'>• Community Engagement</li>
-                        <li className='py-2'>• Effective Advertising</li>
-                        <li className='py-2'>• Automating routine task</li>
+                        <li className='py-2'>• Publishing Scheduling</li>
+                        <li className='py-2'>• 7 posts in a week</li>
                         <li className='py-2 text-2xl font-bold'>• And MANY MORE SERVICES!</li>
                     </ul>
                     <Link to='https://wa.me/918208320287' target='_blank'>
@@ -113,8 +113,8 @@ const Services = () => {
                 {/* sixth card */}
 
                 <div className='justify-center py-4 px-9 mx-auto w-full border rounded-xl shadow-xl' >
-                    <h6 className='text-3xl font-bold flex justify-center py-2'>Twitter</h6>
-                    <img className='mx-auto w-[350px] h-[255px] rounded-lg duration-500 py-2 lg:w-[250px]' src={Twitter} alt="/" />
+                    <h6 className='text-3xl font-bold flex justify-center py-2'>X</h6>
+                    <img className='mx-auto w-[350px] h-[250px] rounded-lg duration-500 py-2 lg:w-[250px]' src={X} alt="/" />
                     <p className='p-2 mt-2 text-2xl font-semibold'>"Grow Your Twitter Game with Our Social Media Marketing Agency!"</p>
                     <p className='p-2 mt-2'>Transform your Twitter game with our marketing agency. Amplify your voice, create trending conversations, and engage your audience on this dynamic social platform for brand success:</p>
                     <ul className='p-2 mt-2'>

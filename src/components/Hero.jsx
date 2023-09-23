@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Hero = () => {
     return (
-        <div className='text-black' id='hero'>
+        <div className='text-white' id='hero'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
                 <p className='text-[#5be2e6] font-bold p-2'>GROWING WITH SOCIAL MEDIA</p>
                 <p className='font-semibold p-2'>Empower Your Pace with Pace Connect: Ignite Your Social Media Success!</p>

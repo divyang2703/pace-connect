@@ -22,7 +22,7 @@ const Team = () => {
     <div className="justify-center py-2 px-6 mx-auto w-full" id="team">
       <h1 className="flex justify-center font-semibold text-2xl">Our Team</h1>
       <Swiper
-        className="carousel flex justify-center border border-black rounded-3xl"
+        className="carousel flex justify-center border border-white rounded-3xl"
         sspaceBetween={50}
         slidesPerView={1}
         autoplay={{

@@ -17,7 +17,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 //images import
 import pc from '../assets/Pace Connect logo.jpg'
 import paradise from '../assets/paradise_customs_logo-.jpeg'
-import clean from '../assets/logo.jpg'
+import clean from '../assets/Pace clean Logo.png'
 import HH from '../assets/Health Hattrick by Prachi Sawtekar (PNG format).png'
 import els from '../assets/easy life solution official logo.jpg'
 import SC from '../assets/Spick cleans logo.jpg'
@@ -34,7 +34,7 @@ const Client = () => {
         &nbsp;Our Top Client
       </h1><br/>
 
-      <Swiper className='carousel flex justify-center bg-white rounded-3xl border border-black '
+      <Swiper className='carousel flex justify-center bg-white rounded-3xl border  '
       spaceBetween={50}
       slidesPerView={1}
 
@@ -52,22 +52,22 @@ const Client = () => {
       >
         <div className='swiper-wrapper'>
           <SwiperSlide className=''>
-            <img src={pc} alt='/' className='flex justify-center w-[400px] h-[350px] mt-28 py-8 mx-auto sm: p-5 '  />
+            <img src={pc} alt='/' className='bg-white flex justify-center w-[400px] h-[450px] mt-16 py-8 mx-auto sm: p-5'  />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={els} alt='/' className='flex justify-center w-[400px] h-[350px] mt-24 py-8 mx-auto sm: p-5 ' />
+            <img src={els} alt='/' className='bg-white flex justify-center w-[410px] h-[350px] mt-[100px] py-8 mx-auto sm:w-[6rem],p-5' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={paradise} alt='/' className='flex justify-center w-[400px] h-[350px] mt-20 py-8 mx-auto sm: p-5 ' />
+            <img src={paradise} alt='/' className='bg-white flex justify-center w-[400px] h-[300px] mt-[130px] py-8 mx-auto sm:p-5' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={clean} alt='/' className='flex justify-center w-[500px] h-[300px] mt-24 py-8 mx-auto sm: p-5 rounded-xl sm:w-[400px] lg:h-[350px]' />
+            <img src={clean} alt='/' className='bg-white flex justify-center w-[550px] h-[450px] mt-12 py-8 mx-auto sm: p-5 md:w-[500px]' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={HH} alt='/' className='flex justify-center w-[400px] h-[350px] mt-28 py-8 mx-auto sm: p-5 ' />
+            <img src={HH} alt='/' className='bg-white flex justify-center w-[400px] h-[350px] mt-[110px]  py-14 mx-auto sm: p-5 ' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={SC} alt='/' className='flex justify-center w-[600px] h-[550px] mt-7 py-8 mx-auto sm: p-5 ' />
+            <img src={SC} alt='/' className='bg-white flex justify-center w-[600px] h-[450px] mt-5 py-8 mx-auto sm: p-5' />
           </SwiperSlide>
         </div>
           

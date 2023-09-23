@@ -13,12 +13,12 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: white;
+    background-color: black;
   }
   
   .accordion-title:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   
   .accordion-title,
@@ -27,7 +27,7 @@ h1 {
   }
   
   .accordion-content {
-    background-color: white;
+    background-color: black;
   }
   
   @media screen and (max-width: 700px) {
