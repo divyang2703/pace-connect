@@ -13,7 +13,7 @@ const Hero = () => {
                     <br/>
                     <Typed className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-black-500' strings={['Leads','Growth','Clients','Business']} typeSpeed={120} backSpeed={140} loop />
                 </div>
-                <Link to='contact' smooth={true} duration={1000}>
+                <Link to='service' smooth={true} duration={1000}>
                 <button className='bg-[#5be2e6] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
                 </Link>
             </div>

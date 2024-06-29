@@ -5,13 +5,13 @@ import ClimbingBoxLoader  from "react-spinners/ClimbingBoxLoader";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-const Hero = lazy(() => import('../src/components/Hero'));
-const Services = lazy(() => import('../src/components/Services'));
-const Client = lazy(() => import('../src/components/Client'));
-const Team = lazy(() => import('../src/components/Team'));
-const About = lazy(() => import('../src/components/About'));
-const Contact = lazy(() => import('../src/components/Contact'));
-const Pricing = lazy(() => import('../src/components/Pricing'));
+const Hero = lazy(() => import('../src/pages/Hero'));
+const Services = lazy(() => import('../src/pages/Services.jsx'));
+const Client = lazy(() => import('./pages/Client.jsx'));
+const Team = lazy(() => import('./pages/Team.jsx'));
+const About = lazy(() => import('../src/pages/About.jsx'));
+const Contact = lazy(() => import('../src/pages/Contact.jsx'));
+const Pricing = lazy(() => import('./pages/Pricing.jsx'));
 const FAQ = lazy(() => import('../src/components/FAQ'));
 
 
@@ -29,7 +29,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 8000)
+    }, 3000)
   }, [])
   return (
     <div className="App">

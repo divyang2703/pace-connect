@@ -42,7 +42,7 @@ const Navbar = () => {
              <h2 className='w-full text-3xl font-bold text-[#0098b0]'>Pace Connect</h2>
             </Link>
 
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex '>
                 <li className='p-4'>
                     <Link to='hero' spy={true} smooth={true} duration={1000} className='cursor-pointer'>Home</Link>
                 </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
 
             </div>
-            <div  ref={navRef} className={nav ? 'fixed left-0 top-0 w-[60%] z-50 text-[#313334] border-r h-full border-r-gray-900 bg-[#FAF9F6] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+            <div  ref={navRef} className={nav ? 'fixed left-0 top-0 w-[60%] z-50 text-white border-r h-full border-r-gray-900 bg-black ease-in-out duration-500' : 'fixed left-[-100%]'}>
                 <h2 className='w-full text-3xl font-bold text-[#0098b0] m-4'>Pace Connect</h2>
 
                 <ul className='p-2'>
